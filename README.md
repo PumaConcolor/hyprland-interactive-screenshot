@@ -1,6 +1,6 @@
 # hyprland-interactive-screenshot
 
-hyprland-interactive-screenshot is a simple bash script to take screenshot easly on Hyprland. It is a fork of sway-interactive-screenshot. Just launch the script and it will ask you what you want to take a screenshot.
+hyprland-interactive-screenshot is a simple bash script to take screenshot easly on Hyprland. It is a fork of [sway-interactive-screenshot](https://github.com/moverest/sway-interactive-screenshot). Just launch the script and it will ask you what you want to take a screenshot.
 
 ## Install
 
