@@ -10,11 +10,10 @@ If you are using Archlinux, you can install hyprland-interactive-screenshot with
 
 - `hyprland` obviously
 - `jq` to parse `swaymsg` JSON response that lists windows
-- `rofi` to prompt what you want to take a screenshot of
+- `tofi` to prompt what you want to take a screenshot of
 - `grim` to take the screenshot
 - `slurp` to select an area on the screen
 - [`swappy`](https://github.com/jtheoof/swappy) (optional) to edit the captured screenshot
-- `notify-send` to send a notification to notification daomon (such as [`mako`](https://github.com/emersion/mako))
 - `wl-copy` to copy the screenshot to the clipboard
 
 ## Bind it to the `Print` key
