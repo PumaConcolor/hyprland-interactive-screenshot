@@ -2,9 +2,6 @@
 
 hyprland-interactive-screenshot is a simple bash script to take screenshot easly on Hyprland. It is a fork of [sway-interactive-screenshot](https://github.com/moverest/sway-interactive-screenshot). Just launch the script and it will ask you what you want to take a screenshot.
 
-## Install
-
-If you are using Archlinux, you can install hyprland-interactive-screenshot with the AUR package [`hyprland-interactive-screenshot`](https://aur.archlinux.org/packages/hyprland-interactive-screenshot) (e.g. `yay -S hyprland-interactive-screenshot`).
 
 ## Dependencies
 
@@ -26,4 +23,4 @@ bind=,PRINT,exec,/path/to/hyprland-interactive-screenshot
 
 ## Settings
 
-By default, `hyprland-interactive-screenshot` saves the screenshots in the home directory. You can change that by setting the `HYPRLAND_INTERACTIVE_SCREENSHOT_SAVEDIR` environment variable to another directory.
+You can change the directory where screenshots are saved by setting the `HYPRLAND_INTERACTIVE_SCREENSHOT_SAVEDIR` environment variable to another directory.
