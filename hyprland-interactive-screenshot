@@ -39,12 +39,14 @@ EXPENDED_FILENAME="${FILENAME/#\~/$HOME}"
 
 case $CHOICE in
     fullscreen)
+        sleep 0.5
         grim "$EXPENDED_FILENAME"
 	;;
     region)
         grim -g "$(slurp)" "$EXPENDED_FILENAME"
 	;;
     focused)
+        sleep 0.5
         grim -g "$FOCUSED" "$EXPENDED_FILENAME"
 	;;
     '')
@@ -52,6 +54,7 @@ case $CHOICE in
         exit 0
         ;;
     *)
+        sleep 0.5
     	GEOMETRY="`echo \"$CHOICE\" | cut -d$'\t' -f1`"
         grim -g "$GEOMETRY" "$EXPENDED_FILENAME"
 esac
